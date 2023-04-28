@@ -1,0 +1,83 @@
+
+.cupeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+    transition: 1s;
+
+}
+.cupe{
+    justify-self: center;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: myAnimation 8s linear infinite;
+}.cupe h1{
+    font-weight: 400;
+}
+
+@keyframes myAnimation
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+}
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+}
+
+}
+.cupe > div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+.cupe div span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(var(--darkColor),rgba(254,177,125,1));
+    transform: rotateY(calc(90deg * var(--i))) translateZ(100px);
+}
+.top{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: var(--darkColor);
+    
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.top::before
+{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(254,177,125,1);
+    transform: translateZ(-280px);
+    filter:blur(15px) ;
+    box-shadow: 0 0 120px rgba(254,177,125,.2),
+    0 0 200px rgba(254, 177, 125, 0.4),
+    0 0 300px rgba(255,177,125,0.6),
+    0 0 400px rgba(254,177,125,0.8),
+    0 0 500px rgba(254,177,125,1);
+}
+
+@media (max-width:900px) {
+    .cupeContainer{
+        margin-top: 12rem;
+    }
+}

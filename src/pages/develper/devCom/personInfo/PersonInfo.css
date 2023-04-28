@@ -1,0 +1,65 @@
+.person-info{
+  display: flex;
+  align-items: center;
+  margin: .5em;
+  padding: 0;
+}
+
+.myImg
+{
+  box-shadow:  -5px 2px 5px 1px var(--darkColor);
+  transition: 2s;
+  width: 180px;
+  height: 180px;
+  border: var(--strongFrontColor) solid;
+  border-radius: 50%;
+  margin: .5rem;
+}
+
+.info-h{
+  margin-left:1rem;
+  color: var(--frontColor);
+  font-weight: 500;
+  font-size: 1.7em;
+  margin: .5rem;
+  font-family: var(--Merienda);
+}
+.devNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* ---------------------------------- */
+
+@media (max-width: 900px) {
+  .person-info{
+    flex-direction: column;
+    align-items: flex-start;
+    }
+  .myImg {
+    width: 100px;
+    height: 100px;
+}
+.info-h{
+    margin: 0;
+    margin-left:0.5rem;
+    font-size: 1.3em;
+    color: var(--frontColor);
+    font-weight: 300;
+}
+}
+
+
+@media (max-width:500px) {
+.info-h{
+    font-size: 1.1em;
+    color: var(--frontColor);
+    font-weight: 500;
+}
+
+.myImg {
+    width: 60px;
+    height: 60px;
+}
+}

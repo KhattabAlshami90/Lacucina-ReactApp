@@ -1,0 +1,40 @@
+.primaryButton{
+    font-size: 1.5em;
+    font-weight: 400;
+    background-color: var(--darkColor);
+    color: var(--frontColor);
+    border: 1px var(--frontColor) solid;
+    font-family:var(--primaryFont);
+    border-radius: 0.5em;
+    padding:0.1em 0.7em;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-right: 1em;
+    margin-bottom: .1em;
+}
+.primaryButton:hover{
+    color: var(--darkColor);
+    background-color: var(--frontColor);
+}
+
+.secondaryButton{
+    font-size: 1.5em;
+    font-weight: 400;
+    background-color: var(--primaryBg);
+    color: var(--frontColor);
+    border: 1px var(--frontColor) solid;
+    font-family:var(--primaryFont);
+    border-radius: 0.5em;
+    padding:0.3em 0.7em;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.secondaryButton:hover{
+        color: var(--darkColor);
+        background-color: var(--firstSubColor);
+        border: 1px var(--darkColor) solid;
+        font-size: 1.5em;
+}
+.secondaryButton::first-letter{
+    text-transform: uppercase;
+}

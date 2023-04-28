@@ -1,0 +1,22 @@
+.imgDiv{
+    width: 180px;
+    height: 90px;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .7s all ease;
+    margin-left: 1rem;
+}
+
+#s1{
+    --i:0;
+}
+#s2{
+    --i:1;
+}
+#s3{
+    --i:2;
+}
+#s4{
+    --i:3;
+}

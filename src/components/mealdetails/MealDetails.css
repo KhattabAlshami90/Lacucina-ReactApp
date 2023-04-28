@@ -1,0 +1,197 @@
+.mealDetailsContainer{
+    width: 70%;
+    align-self: center;
+    background-image: linear-gradient(to right ,var(--firstSubColor), var(--primaryBg));
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-radius: 2em;
+    box-shadow: -2px 2px 0px 1px var(--darkColor);
+    margin: 1em;
+}
+.mealDetailsCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.titleAndPara{
+    display: flex;
+    flex-direction: column;
+    margin-right:1rem;
+}
+
+
+.mealDetailsImg{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2em;
+    box-shadow: -2px 2px 5px 1px var(--darkColor);
+}
+.mealDetailsText{
+    display: flex;
+    gap: .5rem;
+    margin: .5rem;
+}
+.mealDetailsTitle{
+    color: var(--darkColor);
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    margin: .2rem;
+}
+.mealDetailsTitle::first-letter{
+    text-transform: uppercase;
+}
+
+.mealDetailsDescription{
+    font-size: 1.3em;
+    width: 90%;
+    margin: 0;
+    color: var(--darkColor);
+    font-weight: 500;
+}
+.mealDetailsDescription::first-letter{
+    text-transform: uppercase;
+}
+.mealDetailsBtn{
+    display: flex;
+    padding: .5rem;
+    font-size: .9em;
+    justify-content: center;
+}
+.mealDetailsBtn > button{
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: var(--darkColor);
+    color: var(--frontColor);
+    border: 1px var(--frontColor) solid;
+    font-family:var(--primaryFont);
+    border-radius: 0.5em;
+    padding:.5rem;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-right: 1em;
+    margin-bottom: .1em;
+}
+.mealDetailsBtn > button:hover{
+
+    background-color: var(--frontColor);
+    color: var(--darkColor);
+    border: 1px var(--darkColor) solid;
+}
+.cartControl{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+.cartControl > button{
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: var(--primaryBg);
+    color: var(--frontColor);
+    border: 1px var(--frontColor) solid;
+    font-family:var(--primaryFont);
+    border-radius: 0.5em;
+    padding:0.5rem 3rem;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.cartControl > button:hover{
+    background-color: var(--darkColor);
+}
+.mealIncDec{
+    display: flex;
+    gap: .5rem;
+    align-items: baseline;
+}
+.mealIncDec button{
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: var(--primaryBg);
+    color: var(--frontColor);
+    border: 1px var(--frontColor) solid;
+    font-family:var(--primaryFont);
+    border-radius: 0.5em;
+    padding:0.3em 0.7em;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.mealIncDec button:hover{
+    background-color: var(--darkColor);
+}
+
+.mealsQuantity{
+    font-size: 2rem;
+    color: var(--frontColor);
+}
+.mealsQuantity > button{
+        font-size: 1.5em;
+    font-weight: 400;
+    background-color: var(--primaryBg);
+    color: var(--frontColor);
+    border: 1px var(--frontColor) solid;
+    font-family:var(--primaryFont);
+    border-radius: 0.5em;
+    padding:0.3em 0.7em;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+@media (max-width:900px){
+    .mealDetailsDescription{
+        font-size: 1.2em;
+    }
+}
+@media (max-width:850px){
+    .mealDetailsImg{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+@media (max-width:800px) {
+        .mealDetailsDescription{
+        font-size: 1.1em;
+    }
+    .mealDetailsTitle{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width:700px) {
+    .mealDetailsText{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mealDetailsImg{
+        width: 15rem;
+        height: 15rem;
+    }
+    .mealDetailsDescription{
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .mealDetailsDescription{
+        font-size: 1.1em;
+    }
+        .mealDetailsImg{
+            height: 12rem;
+        }
+}
+@media (max-width:400px) {
+    .mealDetailsDescription{
+        font-size: 1em;
+    }
+        .mealDetailsImg{
+            height: 8rem;
+            width: 8rem;
+        }
+        .mealDetailsBtn{
+            font-size: .8em;
+        }
+}

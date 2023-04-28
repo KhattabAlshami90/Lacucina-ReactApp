@@ -1,0 +1,22 @@
+:root{
+  --primaryBg: #37526d;
+  --darkColor: #0d2432;
+  --frontColor: #feb17d;
+  --strongFrontColor:#ff8635;
+  --firstSubColor: #ac8188;
+  --secondSubColor: #6768ab; 
+  --lightColor:#59748f;
+  --primaryFont:'Playfair Display', serif;
+  --secondaryFont:'Times New Roman', Times, serif;
+  --Julee:'Julee', cursive;
+  --Merienda:'Merienda', cursive;
+  --Handlee:'Handlee', cursive;
+}
+
+body {
+
+  background-color: var(--primaryBg);
+  margin: 0;
+}
+
+
