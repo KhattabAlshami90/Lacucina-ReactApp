@@ -1,4 +1,4 @@
-# Kör `npm install react-scripts`
+# Kör `npm install react-scripts --force`
 
 ### `npm start`
 
