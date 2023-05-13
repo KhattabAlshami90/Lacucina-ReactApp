@@ -20,7 +20,7 @@ const PersonInfo = () => {
         <RubberBand>
           <div className="info-text" id="info-text">
             <h2 className="info-h">Khattab Alshami</h2>
-            <h2 className="info-h">khmoal90@gamil.com</h2>
+            <h2 className="info-h">khmoal90@gmail.com</h2>
             <h2 className="info-h">076-327 20 92</h2>
           </div>
         </RubberBand>
