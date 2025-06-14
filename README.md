@@ -1,39 +1,40 @@
-JS-FreakyFashion
+Lacucina React App
 Overview
-JS-FreakyFashion is a frontend project for a fashion/clothing store built with plain JavaScript, HTML, and CSS. This project demonstrates dynamic DOM manipulation, event handling, and responsive design to provide a simple shopping experience.
+Lacucina React App is a modern web application built with React.js to showcase a restaurant’s menu, allow customers to browse dishes, and place orders. The project demonstrates component-based architecture, state management, and interaction with APIs.
 
 Features
-Display a catalog of clothing items with images, names, prices, and descriptions.
+Display restaurant menu items with images, descriptions, and prices.
 
-Add items to a shopping cart using JavaScript.
+Filter and search dishes by category or name.
 
-Update and view the cart with total price calculation.
+Add dishes to an order/cart.
 
-Responsive layout using CSS and Bootstrap.
+Responsive design for desktop and mobile.
 
-Interactive UI with buttons and form validations.
+Built using React functional components and hooks.
 
 Technologies Used
-HTML5
+React.js
 
-CSS3 (Bootstrap for styling)
+JavaScript (ES6+)
 
-JavaScript (Vanilla JS)
+CSS3 (with optional Bootstrap or styled-components)
 
-Responsive Web Design
+REST API (if applicable)
 
 Project Structure
-css
+pgsql
 Kopiera
 Redigera
-JS-FreakyFashion/
-├── index.html
-├── css/
+Lacucina-ReactApp/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
 │   └── styles.css
-├── js/
-│   └── main.js
-├── images/
-│   └── (product images)
+├── package.json
 └── README.md
 How to Run
 Clone the repository:
@@ -41,29 +42,36 @@ Clone the repository:
 bash
 Kopiera
 Redigera
-git clone https://github.com/KhattabAlshami90/JS-FreakyFashion.git
-`npm install react-scripts --force`
+git clone https://github.com/KhattabAlshami90/Lacucina-ReactApp.git
+Navigate to the project folder:
 
- `npm start`
+bash
+Kopiera
+Redigera
+cd Lacucina-ReactApp
+Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Kopiera
+Redigera
+npm install
+Start the development server:
 
-Open the index.html file in your web browser.
-
-Browse and interact with the clothing catalog and shopping cart.
+bash
+Kopiera
+Redigera
+npm start
+Open http://localhost:3000 in your browser.
 
 Future Improvements
-Add backend integration for persistent data storage.
+Add user authentication.
 
-Implement user authentication.
+Integrate backend for order processing.
 
-Add checkout functionality.
+Add payment gateway integration.
 
-Improve accessibility and UI/UX design.
+Improve UI/UX with animations and transitions.
 
 Author
-Developed by Khattab Alshami as part of a learning and personal development project.
-
-
+Developed by Khattab Alshami as part of my portfolio and learning projects.
 
