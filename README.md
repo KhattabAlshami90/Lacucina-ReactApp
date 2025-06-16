@@ -54,7 +54,7 @@ Install dependencies:
 bash
 Kopiera
 Redigera
-npm install
+npm install --force
 Start the development server:
 
 bash
