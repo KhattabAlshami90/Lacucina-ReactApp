@@ -39,27 +39,18 @@ Lacucina-ReactApp/
 How to Run
 Clone the repository:
 
-bash
-Kopiera
-Redigera
+
 git clone https://github.com/KhattabAlshami90/Lacucina-ReactApp.git
 Navigate to the project folder:
 
-bash
-Kopiera
-Redigera
+
 cd Lacucina-ReactApp
 Install dependencies:
 
-bash
-Kopiera
-Redigera
+
 npm install --force
 Start the development server:
 
-bash
-Kopiera
-Redigera
 npm start
 Open http://localhost:3000 in your browser.
 
